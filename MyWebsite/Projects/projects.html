@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philip Ye's Website</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../Projects/projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@700&family=Noto+Sans:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+            <li class="other-page"><a href="../Contact/contact.html">Contact</a></li>
+            <li class="curr-page"><a href="./projects.html">Projects</a></li>   
+            <li class="other-page"><a href="../index.html">About me</a></li> 
+        </ul>
+    </header>
+    <div class="empty">
+        <img src="doge.webp">
+        <h1>Wow, such empty</h1>
+    </div>
+    <br>
+    <br>
+    <div class="empty">
+        <form id="requests">
+            <p1>Give me a suggestion!</p1>
+            <br>
+            <input type="text" placeholder="e.g. build tic-tac-toe" id="suggy">
+            <br>
+            <input type="submit" class="submit">
+        </form>
+    </div>
+    <div class="eye-exam">
+        <h2>Let's do an Eye exam:</h2>
+        <h3>E A I O</h3>
+        <h4>J K Q P</h4>
+        <h5>W X R T</h5>
+        <h6>M L K Z</h6>
+    </div>
+    <div id="xtra-space"></div>
+    <script>
+        const myForm = document.getElementById('requests');
+        const myInput = document.getElementById('suggy');
+        myForm.addEventListener('submit', () => {
+            alert(`You suggested: ${myInput.value}`);
+        });
+    </script>
+</body>
+</html>

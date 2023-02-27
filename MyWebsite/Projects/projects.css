@@ -1,0 +1,62 @@
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    color: #fff;
+    opacity: 80%;
+    padding: 5px;
+    border: 3px rgb(219, 219, 219) inset;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#requests {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    opacity: 85%;
+}
+
+.empty input {
+    border: #fff solid 2px;
+    height: 35px;
+    width: 150px;
+    color: #fff;
+    font-size: large;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+.eye-exam {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit:hover {
+    height: 36px;
+    width: 153px;
+    opacity: 100%;
+}
+
+.submitted-query {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}

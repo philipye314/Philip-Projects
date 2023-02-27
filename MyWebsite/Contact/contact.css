@@ -1,0 +1,52 @@
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    border-bottom: 3px solid rgb(212, 165, 165);
+    opacity: 85%;
+    padding: 5px;
+}
+
+#contacts {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+}
+
+.media-grid {
+    display: grid; 
+    grid-template-columns: repeat(4, 125px);
+    grid-template-rows: repeat(2, 90px);
+}
+
+.media-item {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    opacity: 50%;
+}
+
+img:hover {
+    opacity: 80%;
+}
+
+h4 {
+    display: flex;
+    color: white;
+    opacity: 75%;
+    justify-content: center;
+    font-family: 'Hanuman', serif;
+}
